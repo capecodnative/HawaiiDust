@@ -10,10 +10,10 @@ To get the scripts to work, you will have to download MERRA-2 .NC files, which a
 
 A general run-order for the scripts is:
 - Download daily, spatially subset MERRA-2 data files (for dust/aerosols) into the "MERRA2-Hawaii_aer" subdirectory
-- Download daily, spatially subset MERRA-2 data files (for precipitation) "MERRA2-Hawaii_flx" subdirectory
+- Download daily, spatially subset MERRA-2 data files (for precipitation) into the "MERRA2-Hawaii_flx" subdirectory
 - Check, using the script "findMissingNCfiles.m" for any missing files in the data source/download directories
-- Run "readMERRA2.m" and "readMERRA2_precip.m" to load and calculate the key data tables for the dust and precipitation variables
-- Run "readClimateIndicators.m" to load the climate indicators (PDO and NINO) from the "ClimateIndicators" subdirectory
+- Run "readMERRA2.m" and "readMERRA2_precip.m" to load and calculate key data tables for the dust and precipitation analyses
+- Run "readClimateIndicators.m" to load the climate indicators (PDO and NINO) stored as text files in the "ClimateIndicators" subdirectory
 - Run "makeAncillaryVars.m" to generate all ancillary variables used and plotted by the analysis
 - Run any of the "plot..." scripts to create plots.
 - Contact the lead author, dan at uga d0t edu, if you have questions
