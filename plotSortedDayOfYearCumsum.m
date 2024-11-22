@@ -26,7 +26,7 @@ for i=1980:2023
 end
 
 xlim([1,366]);
-xlabel('Ranked Day of Year (1 = Dustiest)');
+xlabel('Rank-Sorted Days of Each Year (1 = Dustiest Day)');
 %ylabel('% of Annual Cumulative Dust at Surface');
 ylabel({'Cumulative Fraction of','Annual Dust at Surface'});
 legend(hLegend,{'2022','2023'},'Location','Northwest' );
