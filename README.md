@@ -1,6 +1,6 @@
 ## **HawaiiDust**: MATLAB code for MERRA-2 subset analysis of dust and precipitation
 
-This repository accompanies an in-review manuscript (pre-print draft: https://essopenarchive.org/doi/full/10.22541/essoar.172072594.47905552/ ) that examines atmospheric dust concentrations in a portion of the South Pacific near Hawaii between the period 1980 to 2023. 
+This repository accompanies an [open-access manuscript in JGR: Atmospheres](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2024JD041860) that examines atmospheric dust concentrations in a portion of the South Pacific near Hawaii between the period 1980 to 2023. 
 
 Code is written in MATLAB and is found in the primary (root) directory. 
 
